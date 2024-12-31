@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAS File Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h2 id="header-title"></h2> <h2>File Explorer</h2>
+    <input type="text" id="path-input" placeholder="/">
+</header>
+<main>
+    <div class="file-grid" id="file-grid">
+        <!-- Load files -->
+    </div>
+
+    <div class="upload-section">
+        <h2>Upload File</h2>
+        <form id="upload-form">
+            <input type="file" id="file-input" required><br>
+            <input type="text" id="upload-path" placeholder="Target Directory">
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</main>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
